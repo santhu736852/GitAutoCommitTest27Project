@@ -8,11 +8,15 @@ packages:
   gitUsername: santhu736852
   gitBranch: main
 services:
-- serviceName: project.gitautocommittest27.integrations:AutoCommitTrue
+- serviceName: project.gitautocommittest27.integrations:Test1
   packages:
   - name: GitAutoCommitTest27Project
     version: "1.0"
 - serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.1999
+- serviceName: pub.math:max
   packages:
   - name: WmPublic
     version: 11.1.0.0.1999
